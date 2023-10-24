@@ -1,0 +1,321 @@
+    /* a38068 = Mocca - Hex Color */
+    /* 5d5246 = Ceddar Brown - Hex Color */
+    /* CC0000 = red */
+    /* 3e3e42 = dark */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    margin: 5px auto;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+    border-radius: .25rem;
+}
+
+/* HALAMAN LOGIN */
+.col-md-9 {
+    height: 355px;
+    padding-top: 10px;
+    background-color: #5d5246;
+    border-radius: .50rem;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+}
+
+.img-fluid {
+    border-radius: .50rem;
+}
+
+.col-md-8 {
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: .50rem;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+}
+.divider {
+    text-align: center;
+}
+
+.fw-normal {
+    text-align: center;
+}
+
+.form-login {
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.login-register {
+    text-align: center;
+}
+
+.btn-login {
+    background-color: #5d5246;
+    font-size: 18px;
+    color: #f5f5f5;
+    width: 390px;
+    margin-top: 10px;
+}
+
+.btn-login:hover, .btn-login:active {
+    background-color: #4b4238;
+    color: #f5f5f5;
+}
+
+.login-register p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+    font-weight: bold;
+    font-size: small;
+}
+
+.link-danger {
+    color: #ff0000;
+}
+
+/* .salah {
+    text-align: center;
+    font-style: italic;
+} */
+
+.form-check-input {
+    margin-top: 7px;
+}
+
+/* HALAMAN REGISTER */
+
+/* Carousel Slide */
+.box-register {
+    background-color: #ffffff;
+    border-radius: .50rem;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+    margin-top: 30px;
+    padding: 45px;
+}
+
+.bd-example {
+    background-color: #5d5246;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+    
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.d-block {
+    width: 450px;
+}
+
+.form {
+    margin-right: 10px;
+}
+
+.register h1{
+    text-align: center;
+}
+
+.register p {
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.link-masuk {
+    color: #0000ff;
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+/* .form-control {
+    width: 400px;
+} */
+
+.btn-daftar {
+    width: 30%;
+    margin-top: 15px;
+    background-color: #5d5246;
+
+    color: #f5f5f5;
+}
+
+.btn-daftar:hover, .btn-daftar:active {
+    background-color: #4b4238;
+    color: #f5f5f5;
+}
+
+/* Halaman Admin */
+.daftar-buah {
+    text-align: center;
+}
+
+.tambah_data {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.btn-tambah_data {
+    width: 100px;
+    padding: 5px 5px;
+
+    background-color: #3e3e42;
+    color: #f5f5f5;
+    border: 1px solid #000000;
+    border-radius: .25rem;
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-tambah_data:link, .btn-tambah_data:visited {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.btn-tambah_data:hover, .btn-tambah_data:active {
+    background-color: #2b2b2b;
+    color: #f5f5f5;
+    border: 1px solid #000000;
+}
+
+table tr, th ,td{
+    text-align: center;
+    border: 1px solid;
+}
+
+.table-dark {
+    background-color: #3e3e42;
+}
+
+.td-l {
+    text-align: left;
+}
+
+.pen {
+    font-size: 15px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.pen:link, .pen:visited {
+    width: 50px;
+    height: 25px;
+
+    background-color: #ffd607;
+    border: 1px solid #ffc107;
+    border-radius: .50rem;
+    padding-top: 2px;
+
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.pen:hover, .pen:active {
+    background-color: #3e3e42;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.fa {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.fa:link, .fa:visited {
+    width: 50px;
+    height: 25px;
+    
+    background-color: #ff0000;
+    border: 1px solid #CC0000;
+    border-radius: .30rem;
+    padding-top: 2px;
+
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.fa:hover, .fa:active {
+    background-color: #3e3e42;
+    color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.pagination{
+    margin-top: 20px;
+}
+
+.page-link{
+    background-color: #3e3e42;
+    color: #f5f5f5;
+}
+
+.page-link:hover, .page-link:active {
+    background-color: #f5f5f5;
+    color: #3e3e42;
+}
+
+.btn-tambah {
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 30%;
+    background-color: #5d5246;
+    text-align: center; 
+    color: #f5f5f5;
+}
+
+.btn-tambah:hover, .btn-tambah:active {
+    background-color: #4b4238;
+    color: #f5f5f5;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    text-align: center;
+    color: #f5f5f5;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+}
+
+
+/* KOLOM */
+.kolom {
+    color: #000000;
+}
+
+.form-h4 {
+    text-align: center;
+}
+
+/* CARD-HEADER */
+.card-text {
+    color: #000000;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
